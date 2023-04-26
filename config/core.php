@@ -23,7 +23,7 @@ if (isset($_SESSION['lang'])) $lang = $_SESSION['lang'];
 
 // setting
 $site = mysqli_fetch_array(db::query("select * from `site` where id = 1"));
-$ver = 1.12;
+$ver = 1.002;
 $site_set = [
     'swiper' => 'false',
 ];
